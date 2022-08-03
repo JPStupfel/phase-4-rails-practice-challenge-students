@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Instructor.destroy_all
-Student.destroy_all
+# Instructor.destroy_all
+# Student.destroy_all
 
 vidhi  = Instructor.create(name: "Vidhi")
 raul   = Instructor.create(name: "Raul")
